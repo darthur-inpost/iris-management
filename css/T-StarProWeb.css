@@ -1,0 +1,54 @@
+@font-face {
+  font-family: TSTARPRORegular;
+  src: url("TSTARPRO-RegularWeb.eot");
+  src: url("TSTARPRO-RegularWeb.woff") format("woff");
+}
+
+@font-face {
+  font-family: TSTARPRORegular;
+  src: url("TSTARPRO-BoldWeb.eot");
+  src: url("TSTARPRO-BoldWeb.woff") format("woff");
+  font-weight:bold;
+}
+
+@font-face {  
+  font-family: TSTARPROLight;
+  src: url("TSTARPRO-LightWeb.eot");
+  src: url("TSTARPRO-LightWeb.woff") format("woff");
+}
+@font-face {
+  font-family: TSTARPROMedium;
+  src: url("TSTARPRO-MediumWeb.eot");
+  src: url("TSTARPRO-MediumWeb.woff") format("woff");
+     }
+@font-face {
+  font-family: TSTARPROBold;
+  src: url("TSTARPRO-BoldWeb.eot");
+  src: url("TSTARPRO-BoldWeb.woff") format("woff");
+}
+@font-face {
+  font-family: TSTARPROHeadline;
+  src: url("TSTARPRO-HeadlineWeb.eot");
+  src: url("TSTARPRO-HeadlineWeb.woff") format("woff");
+  }
+@font-face {
+  font-family: TSTARPROItalic;
+  src: url("TSTARPRO-ItalicWeb.eot");
+  src: url("TSTARPRO-ItalicWeb.woff") format("woff"); 
+  }
+@font-face {
+  font-family: TSTARPROLightItalic;
+  src: url("TSTARPRO-LightItalicWeb.eot");
+  src: url("TSTARPRO-LightItalicWeb.woff") format("woff");
+  }
+@font-face {
+  font-family: TSTARPROMediumItalic;
+  src: url("TSTARPRO-MediumItalicWeb.eot");
+  src: url("TSTARPRO-MediumItalicWeb.woff") format("woff");
+  }
+@font-face {
+  font-family: TSTARPROBoldItalic;
+  src: url("TSTARPRO-BoldItalicWeb.eot");
+  src: url("TSTARPRO-BoldItalicWeb.woff") format("woff");
+   
+}

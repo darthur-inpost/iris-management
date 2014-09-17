@@ -1,0 +1,227 @@
+/*
+ * InPost UK Ltd. CSS
+ */
+
+    * {
+    margin: 0;
+    }
+    html, body {
+    height: 100%;
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+
+    }
+    .wrapper {
+    min-height: 100%;
+    width: 90%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -2em; 
+}
+.footer, .push {
+    height: 4em;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 11px;
+    color: darkgrey;
+}
+
+    
+#header {
+    border-bottom: 3px solid #039;
+    width: 98%;
+    height:80px;
+    background-color: white;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 28px;
+    color: #039;
+}
+    
+.main_menu
+{
+	margin-top: 5px;
+	height:30px;
+	width:98%;
+	line-height:30px;
+	color:#FFF;
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	background-color: #333333;
+}
+.main_menu ul
+{
+	padding:0px;
+	margin:0;
+	list-style:none;
+}
+.main_menu ul li
+{
+	padding:0;
+	margin:0;
+	border-right:1px solid #000000;
+	float:left;
+	background:#333333;
+}
+.main_menu ul li a
+{
+	color:#FFF;
+	display:block;
+	text-decoration:none;
+	padding:0 25px;
+}
+.main_menu ul li a:hover
+{
+	background:#3ea5ea;
+	color:#000;
+}
+.main_menu ul li ul
+{
+	display: none;
+	width: auto;
+	position:absolute;
+	top:30px;
+	padding:0px;
+	margin:0px;
+}
+.main_menu ul li:hover ul
+{
+	display: block;
+	position: absolute;
+	margin: 0;
+	padding: 0;
+}
+.main_menu ul li:hover li
+{
+	float: none;
+	list-style:none;
+	margin:0px;
+}
+.main_menu ul li:hover li
+{
+	background:#333;
+	border-top:1px solid #000000;
+}
+.main_menu ul li:hover li a
+{
+	color: #fff;
+	padding:0 20px;
+	display:block;
+	width:170px;
+}
+.main_menu ul li li a:hover
+{
+	color:#000;
+}
+
+
+#box-table-a
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin: 0px;
+        margin-bottom: 5px;
+        margin-top:5px;
+	width: 98%;
+	text-align: center;
+	border-collapse: collapse;
+}
+
+#box-table-a th
+{
+	font-size: 13px;
+	font-weight: normal;
+	padding: 0px;
+	background: #AAB6A2;
+	border-top: 4px solid white;
+	border-bottom: 1px solid #fff;
+	color: #039;
+}
+#box-table-a td
+{
+	padding: 5px;
+	background: #e8edff; 
+	border-bottom: 1px solid #fff;
+	color: #669;
+	border-top: 1px solid transparent;
+}
+#box-table-a tr:hover td
+{
+	background:tomato;
+	color: black;
+}
+
+a:link{
+    text-decoration:none;
+    color: #990000;
+    font-family: inherit;
+    font-size: inherit;
+}
+     
+a:visited{
+    color: #990000;
+    text-decoration:none;
+    font-family: inherit;
+    font-size: inherit;
+}
+    
+p.prompt{
+    color: #AAB6A2;
+    text-decoration:none;
+    font-family: inherit;
+    font-size:10px;
+}
+
+button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	box-shadow:inset 0px 1px 0px 0px #cae3fc;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #4197ee) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #4197ee 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#4197ee');
+	background-color:#79bbff;
+	-webkit-border-top-left-radius:20px;
+	-moz-border-radius-topleft:20px;
+	border-top-left-radius:20px;
+	-webkit-border-top-right-radius:20px;
+	-moz-border-radius-topright:20px;
+	border-top-right-radius:20px;
+	-webkit-border-bottom-right-radius:20px;
+	-moz-border-radius-bottomright:20px;
+	border-bottom-right-radius:20px;
+	-webkit-border-bottom-left-radius:20px;
+	-moz-border-radius-bottomleft:20px;
+	border-bottom-left-radius:20px;
+	text-indent:0;
+	border:1px solid #469df5;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:50px;
+	line-height:50px;
+	width:110px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #287ace;
+	cursor: pointer;
+}
+button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #4197ee), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #4197ee 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#4197ee', endColorstr='#79bbff');
+	background-color:#4197ee;
+}.classname:active {
+	position:relative;
+	top:1px;
+	cursor: pointer;
+}
+/* This button was generated using CSSButtonGenerator.com */
+
+/* Form Error CSS */
+label.error {
+	color: red;
+	font-weight: bold;
+	display: block;
+}

@@ -1,0 +1,4 @@
+html,body{height:100%;}
+#wrap{min-height:100%;height:auto!important;height:100%;z-index:43;position:relative;margin-bottom:-136px;}
+#footer,#push{height:136px;}
+#footer{background:#181818 !important;}
